@@ -13,6 +13,6 @@ MaxAccountExtension is a commercial library, you can download it for trial basis
 After you download the above repository, you can open and build by Visual Studio 2019 Community directly.
 Otherwise, you may copy the source code folder "Controller", "Conversion", "Model" and "Program.cs" to your Visual Studio project folder for further actions.
 
-We will publish brief training videos on YouTube https://www.youtube.com/channel/UCouJHDI_7dkNbiEnuDpnFmg
+How-to videos will publish on YouTube https://www.youtube.com/channel/UCouJHDI_7dkNbiEnuDpnFmg
 
 Some of the essential use case files will be uploaded to this repository.
