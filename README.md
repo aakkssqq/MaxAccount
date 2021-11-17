@@ -17,4 +17,4 @@ How-to videos will be published on the YouTube channel "Lami Yu" https://www.you
 
 Video 1 Voucher Entry: https://youtu.be/wkDV8hWaIyI
 
-Some of the essential use case files will be uploaded to this repository.
+Some of the essential use case files will be uploaded to the folder "UseCase" of this repository.
