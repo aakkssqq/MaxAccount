@@ -15,7 +15,7 @@ Otherwise, you may copy the source code folder "Controller", "Conversion", "Mode
 
 How-to videos will be published on the YouTube channel "Lami Yu" https://www.youtube.com/channel/UCouJHDI_7dkNbiEnuDpnFmg
 
-Vidfeo 1 How-to build and run: https://youtu.be/oEjBtHElH7w
+Vidfeo 1 How to build and run: https://youtu.be/oEjBtHElH7w
 
 Video 2 Voucher Entry: https://youtu.be/wkDV8hWaIyI
 
