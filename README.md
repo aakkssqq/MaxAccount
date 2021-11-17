@@ -15,8 +15,8 @@ Otherwise, you may copy the source code folder "Controller", "Conversion", "Mode
 
 How-to videos will be published on the YouTube channel "Lami Yu" https://www.youtube.com/channel/UCouJHDI_7dkNbiEnuDpnFmg
 
-How to build and run: https://youtu.be/oEjBtHElH7w
+Vidfeo 1 How to build and run: https://youtu.be/oEjBtHElH7w
 
-Video 1 Voucher Entry: https://youtu.be/wkDV8hWaIyI
+Video 2 Voucher Entry: https://youtu.be/wkDV8hWaIyI
 
 Some of the essential use case files will be uploaded to the folder "UseCase" of this repository.
