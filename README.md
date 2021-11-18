@@ -26,9 +26,12 @@ Video 3 VoucherEntry: https://youtu.be/wkDV8hWaIyI
 - SelectColumn{Date, D/C, Account, Invoice No,Customer, Product, Amount}
 -  OrderBy{Date(A) Invoice No(A) D/C(D)}
 - LedgerRAM2CSV{trading | * ~ Result-VoucherEntry.csv}
-- EndProcess{}
 
 Video 4 Distinct: https://youtu.be/di4gc2Thi44
+
+- CSV2LedgerRAM{Transaction.csv ~ Table}
+- Distinct{Customer,Product ~ Distinct}
+- LedgerRAM2CSV{Distinct  | * ~ Result-DisctictByProductAndCustomer.csv}
 
 Video 5 GroupBy: https://youtu.be/8-WMIX3LwjA
 
