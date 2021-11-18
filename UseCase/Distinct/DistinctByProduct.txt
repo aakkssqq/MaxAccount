@@ -1,0 +1,4 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}
+Distinct{Product ~ Distinct}
+LedgerRAM2CSV{Distinct  | * ~ Result-DisctictByProduct.csv}
+EndProcess{}
