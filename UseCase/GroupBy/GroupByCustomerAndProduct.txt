@@ -1,0 +1,4 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}   
+GroupBy{Customer, Product,Unit Code,Currency => Sum(Quantity) Sum(Amount) ~ GroupByCustomerAndProduct}
+LedgerRAM2CSV{GroupByCustomerAndProduct | * ~ Result-GroupByCustomerAndProduct.csv}
+EndProcess{}
