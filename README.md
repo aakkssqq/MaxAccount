@@ -21,6 +21,13 @@ Video 2 Command List and Syntax: https://youtu.be/UQbJB_vaK5Y
 
 Video 3 VoucherEntry: https://youtu.be/wkDV8hWaIyI
 
+- CSV2LedgerRAM{Invoice.csv ~ trading}
+- VoucherEntry{Credit(Sales) Debit(Account Receivable) => Amount}
+- SelectColumn{Date, D/C, Account, Invoice No,Customer, Product, Amount}
+-  OrderBy{Date(A) Invoice No(A) D/C(D)}
+- LedgerRAM2CSV{trading | * ~ Result-VoucherEntry.csv}
+- EndProcess{}
+
 Video 4 Distinct: https://youtu.be/di4gc2Thi44
 
 Video 5 GroupBy: https://youtu.be/8-WMIX3LwjA
