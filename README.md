@@ -17,21 +17,21 @@ How-to videos will be published on the YouTube channel "Lami Yu" https://www.you
 
 Video 1 How to build and run: https://youtu.be/oEjBtHElH7w
 
-Video 2 VoucherEntry: https://youtu.be/wkDV8hWaIyI
+Video 2 Command List and Syntax: https://youtu.be/UQbJB_vaK5Y
 
-Video 3 Distinct: https://youtu.be/di4gc2Thi44
+Video 3 VoucherEntry: https://youtu.be/wkDV8hWaIyI
 
-Video 4 GroupBy: https://youtu.be/8-WMIX3LwjA
+Video 4 Distinct: https://youtu.be/di4gc2Thi44
 
-Video 5 Crosstab : Coming soon
+Video 5 GroupBy: https://youtu.be/8-WMIX3LwjA
 
-Video 6 ReverseCrosstab : Coming soon
+Video 6 Crosstab : Coming soon
 
-Video 7 JoinTable : Coming soon
+Video 7 ReverseCrosstab : Coming soon
 
-Video 8 ComputeColumn : Coming soon
+Video 8 JoinTable : Coming soon
 
-Video 9 Compare different between JoinTable and ComputeColumn : Coming soon
+Video 9 ComputeColumn : Coming soon
 
 Video 10 and after are planning in progress.
 
