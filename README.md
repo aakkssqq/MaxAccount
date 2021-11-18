@@ -35,6 +35,10 @@ Video 4 Distinct: https://youtu.be/di4gc2Thi44
 
 Video 5 GroupBy: https://youtu.be/8-WMIX3LwjA
 
+- CSV2LedgerRAM{Transaction.csv ~ Table}   
+- GroupBy{Customer, Product,Unit Code,Currency => Sum(Quantity) Sum(Amount) ~ GroupByCustomerAndProduct}
+- LedgerRAM2CSV{GroupByCustomerAndProduct | * ~ Result-GroupByCustomerAndProduct.csv}
+
 Video 6 Crosstab : Coming soon
 
 Video 7 ReverseCrosstab : Coming soon
