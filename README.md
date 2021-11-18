@@ -23,18 +23,16 @@ Video 3 Distinct: https://youtu.be/di4gc2Thi44
 
 Video 4 GroupBy: https://youtu.be/8-WMIX3LwjA
 
-Video 5 Compare different between Distinct and GroupBy : Coming soon
+Video 5 Crosstab : Coming soon
 
-Video 6 Crosstab : Coming soon
+Video 6 ReverseCrosstab : Coming soon
 
-Video 7 Compare different between Crosstab and GroupBy : Coming soon
+Video 7 JoinTable : Coming soon
 
-Video 8 JoinTable : Coming soon
+Video 8 ComputeColumn : Coming soon
 
-Video 9 ComputeColumn : Coming soon
+Video 9 Compare different between JoinTable and ComputeColumn : Coming soon
 
-Video 10 Compare different between JoinTable and ComputeColumn : Coming soon
-
-Video 11 and after are planning in progress.
+Video 10 and after are planning in progress.
 
 Relevent data and rule files will be uploaded to the folder "UseCase" of this repository.
