@@ -1,6 +1,6 @@
 # MaxAccount
 
-MaxAccount is not a fixed accounting software, however it supports your customisation of accounting rules to support every change of statutory and management requirements.
+MaxAccount is not a fixed accounting software, however it looks like an Accounting ETL supports your customisation of accounting rules to adapt every change of statutory and management requirements.
 
 It is a .net console project and has some of dependencies:
 
