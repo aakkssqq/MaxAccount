@@ -35,6 +35,6 @@ Video 9 ComputeColumn : Coming soon
 
 Video 10 Compare different between JoinTable and ComputeColumn : Coming soon
 
-Record video 11 and after are planning in progress.
+Video 11 and after are planning in progress.
 
 Relevent data and rule files will be uploaded to the folder "UseCase" of this repository.
