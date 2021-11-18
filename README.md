@@ -21,7 +21,7 @@ Video 2 VoucherEntry: https://youtu.be/wkDV8hWaIyI
 
 Video 3 Distinct: https://youtu.be/di4gc2Thi44
 
-Video 4 GroupBy: Coming soon
+Video 4 GroupBy: https://youtu.be/8-WMIX3LwjA
 
 Video 5 Compare different between Distinct and GroupBy : Coming soon
 
