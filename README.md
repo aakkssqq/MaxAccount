@@ -17,6 +17,8 @@ How-to videos will be published on the YouTube channel "Lami Yu" https://www.you
 
 Vidfeo 1 How to build and run: https://youtu.be/oEjBtHElH7w
 
-Video 2 Voucher Entry: https://youtu.be/wkDV8hWaIyI
+Video 2 VoucherEntry: https://youtu.be/wkDV8hWaIyI
+
+Video 3 Distinct: https://youtu.be/di4gc2Thi44
 
 Some of the essential use case files will be uploaded to the folder "UseCase" of this repository.
