@@ -23,17 +23,17 @@ Video 3 Distinct: https://youtu.be/di4gc2Thi44
 
 Video 4 GroupBy: Coming soon
 
-Video 5: Compare Different between Distinct and GroupBy : Coming soon
+Video 5: Compare different between Distinct and GroupBy : Coming soon
 
 Video 6: Crosstab : Coming soon
 
-Video 7: Compare Different between Crosstab and GroupBy : Coming soon
+Video 7: Compare different between Crosstab and GroupBy : Coming soon
 
 Video 8: JoinTable : Coming soon
 
 Video 9: ComputeColumn : Coming soon
 
-Video 10: Compare Different between JoinTable and ComputeColumn : Coming soon
+Video 10: Compare different between JoinTable and ComputeColumn : Coming soon
 
 Record video 11 and after are planning in progress.
 
