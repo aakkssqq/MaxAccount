@@ -1,0 +1,5 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}
+ComputeColumn{"Sales ", Product, " to ", Customer, " ",Quantity, " ", Unit Code => CombineText(Description)}
+LedgerRAM2CSV{Table | * ~ Result-CombineText.csv}
+EndProcess{}
+
