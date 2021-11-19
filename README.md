@@ -72,7 +72,7 @@ Video 10 ComputeColumn (Combine Text): https://youtube.com/shorts/FwHucQpFVJs?fe
 - LedgerRAM2CSV{Table | * ~ Result-CombineText.csv}
 - EndProcess{}
 
-Video 11 JoinTable and ComputeColumn : Coming soon
+Video 11 JoinTable and ComputeColumn : https://youtube.com/shorts/c1nCK-jKP0I?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Transaction}   
 - CSV2LedgerRAM{Unit Price.csv ~ UnitPrice}
 - CSV2LedgerRAM{Discount.csv ~ Discount}
@@ -85,7 +85,7 @@ Video 11 JoinTable and ComputeColumn : Coming soon
 - EndProcess{}
 
 
-Video 11 Conversion : Coming soon
+Video 11 Convert csv to json,xml,html and xml : https://youtube.com/shorts/OkYHXd-gSEI?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Table}
 - LedgerRAM2CSV{Table | * ~ Result-Transaction.csv}
 - LedgerRAM2JSON{Table ~ Result-Transaction.json}
