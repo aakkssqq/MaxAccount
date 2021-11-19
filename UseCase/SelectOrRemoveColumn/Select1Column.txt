@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}
+SelectColumn{Customer ~ 1Column}
+LedgerRAM2CSV{1Column | * ~ Result-Select1Column.csv}
+EndProcess{}
+
+

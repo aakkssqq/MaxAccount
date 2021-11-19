@@ -1,0 +1,4 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}
+RemoveColumn{Table | Date ~ Table1}
+LedgerRAM2CSV{Table1 | * ~ Result-Remove1Column.csv}
+EndProcess{}

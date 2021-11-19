@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}
+SelectColumn{Customer,Product,Quantity,Unit Code,Currency,Unit Price,Amount ~ 7Column}
+LedgerRAM2CSV{7Column | * ~ Result-Select7Column.csv}
+EndProcess{}
+
+
