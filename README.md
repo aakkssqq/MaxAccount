@@ -55,6 +55,13 @@ Video 8 AndFilter: https://youtube.com/shorts/Lp2_aBH_mqU?feature=share
 - AndFilter{Table | Product(=Apple,=Orange) Amount(500..1000) ~ Table1}   
 - LedgerRAM2CSV{Table1 | * ~ Result-AndFilterByCustomerAndProductApple.csv}
 
+Video 9 SelectColumn / RemoveColumn 
+- CSV2LedgerRAM{Transaction.csv ~ Table}
+- RemoveColumn{Table | Date,Product, Quantity, Unit Code, currency, Unit Price, Amount ~ Table1}
+- LedgerRAM2CSV{Table1 | * ~ Result-Remove7Column.csv}
+- EndProcess{}
+
+
 Video 9 JoinTable : Coming soon
 
 Video 10 ComputeColumn : Coming soon
