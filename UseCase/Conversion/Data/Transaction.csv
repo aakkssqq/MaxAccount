@@ -1,0 +1,32 @@
+Date,Customer,Product, Quantity ,Unit Code,Currency, Unit Price , Amount 
+2-Jan-22,Tiger Company,Apple,20,Box,USD,30,600
+9-May-22,Tiger Company,Avocado,5,Box,USD,19.5,97.5
+12-Jul-22,Tiger Company,Mango,30,Box,USD,30,900
+18-Sep-22,Tiger Company,Apple,10,Box,USD,30,300
+12-Oct-22,Tiger Company,Avocado,9,Box,USD,19.5,175.5
+12-Jan-22,Lion Limited,Orange,50,Box,USD,38,1900
+20-Mar-22,Lion Limited,Pear,18,Box,USD,8,144
+18-May-22,Lion Limited,Orange,30,Box,USD,38,1140
+15-Aug-22,Lion Limited,Banana,15,Kg,USD,4,60
+19-Jan-22,Dog Inc.,Pear,10,Box,USD,8,80
+30-Apr-22,Dog Inc.,Banana,5,Kg,USD,4,20
+20-Jul-22,Dog Inc.,Apple,30,Box,USD,30,900
+30-Sep-22,Dog Inc.,Pear,8,Box,USD,8,64
+20-Nov-22,Dog Inc.,Grape,10,Kg,USD,11,110
+6-Jan-22,Cat Company Limited,Avocado,6,Box,USD,19.5,117
+30-Jun-22,Cat Company Limited,Mango,5,Box,USD,30,150
+15-Aug-22,Cat Company Limited,Avocado,10,Box,USD,19.5,195
+19-Nov-22,Cat Company Limited,Mango,15,Box,USD,30,450
+18-Feb-22,Pig Inc.,Orange,30,Box,USD,38,1140
+15-Mar-22,Pig Inc.,Pear,10,Box,USD,8,80
+20-Oct-22,Pig Inc.,Grape,20,Kg,USD,11,220
+15-Jan-22,Sheep Limited,Orange,10,Box,USD,38,380
+18-Feb-22,Sheep Limited,Apple,20,Box,USD,30,600
+19-Mar-22,Sheep Limited,Avocado,3,Box,USD,19.5,58.5
+25-Aug-22,Sheep Limited,Orange,20,Box,USD,38,760
+16-Oct-22,Sheep Limited,Apple,50,Box,USD,30,1500
+30-Jan-22,Rat Company,Avocado,10,Box,USD,19.5,195
+26-Feb-22,Rat Company,Mango,20,Box,USD,30,600
+15-Apr-22,Rat Company,Orange,15,Box,USD,38,570
+16-May-22,Rat Company,Banana,25,Kg,USD,4,100
+15-Jul-22,Rat Company,Pear,30,Box,USD,8,240

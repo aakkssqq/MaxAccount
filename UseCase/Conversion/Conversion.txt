@@ -1,0 +1,8 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}
+LedgerRAM2CSV{Table | * ~ Result-Transaction.csv}
+LedgerRAM2JSON{Table ~ Result-Transaction.json}
+LedgerRAM2HTML{Table ~ Result-Transaction.html}
+LedgerRAM2XML{Table ~ Result-Transaction.xml}
+EndProcess{}
+
+
