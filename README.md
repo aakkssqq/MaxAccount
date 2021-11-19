@@ -28,13 +28,13 @@ Video 3 VoucherEntry: https://youtu.be/wkDV8hWaIyI
 -  OrderBy{Date(A) Invoice No(A) D/C(D)}
 - LedgerRAM2CSV{trading | * ~ Result-VoucherEntry.csv}
 
-Video 4 Distinct: https://youtu.be/di4gc2Thi44
+Video 4 Distinct: https://youtube.com/shorts/di4gc2Thi44?feature=share
 
 - CSV2LedgerRAM{Transaction.csv ~ Table}
 - Distinct{Customer,Product ~ Distinct}
 - LedgerRAM2CSV{Distinct  | * ~ Result-DisctictByProductAndCustomer.csv}
 
-Video 5 GroupBy: https://youtu.be/8-WMIX3LwjA
+Video 5 GroupBy: https://youtube.com/shorts/8-WMIX3LwjA?feature=share
 
 - CSV2LedgerRAM{Transaction.csv ~ Table}   
 - GroupBy{Customer, Product,Unit Code,Currency => Sum(Quantity) Sum(Amount) ~ GroupByCustomerAndProduct}
