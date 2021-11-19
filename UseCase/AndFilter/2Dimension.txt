@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}    
+AndFilter{Table | Customer(=Tiger Company)Product(=Apple) ~ Table1}   
+LedgerRAM2CSV{Table1 | * ~ Result-2Dimension.csv}
+EndProcess{}
+
+

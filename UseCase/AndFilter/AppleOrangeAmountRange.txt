@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}    
+AndFilter{Table | Product(=Apple,=Orange) Amount(500..1000) ~ Table1}   
+LedgerRAM2CSV{Table1 | * ~ Result-AndFilterByCustomerAndProductApple.csv}
+EndProcess{}
+
+

@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}    
+AndFilter{Table | Quantity(=10,=20,=30)}     
+LedgerRAM2CSV{Table | * ~ Result-Greater&Smaller.csv}
+EndProcess{}
+
+
