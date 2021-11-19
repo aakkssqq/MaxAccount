@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Transaction.csv ~ Transaction}   
+CSV2LedgerRAM{Discount.csv ~ Master}
+JoinTable{Transaction(Customer) @ Master(Customer) ~ joinedTable} 
+LedgerRAM2CSV{joinedTable | * ~ Result-JoinTableDiscount.csv}
+EndProcess{}
+
