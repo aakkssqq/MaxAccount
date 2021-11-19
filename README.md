@@ -47,10 +47,12 @@ Video 6 Crosstab : https://youtube.com/shorts/me7ZfQSFn0Y?feature=share
 
 Video 7 ReverseCrosstab : Coming soon
 
-Video 8 JoinTable : Coming soon
+Video 8 AndFilter: https://youtube.com/shorts/Lp2_aBH_mqU?feature=share
 
-Video 9 ComputeColumn : Coming soon
+Video 9 JoinTable : Coming soon
 
-Video 10 and after are planning in progress.
+Video 10 ComputeColumn : Coming soon
+
+Video 11 and after are planning in progress.
 
 Relevent data and rule files will be uploaded to the folder "UseCase" of this repository.
