@@ -40,7 +40,10 @@ Video 5 GroupBy: https://youtu.be/8-WMIX3LwjA
 - GroupBy{Customer, Product,Unit Code,Currency => Sum(Quantity) Sum(Amount) ~ GroupByCustomerAndProduct}
 - LedgerRAM2CSV{GroupByCustomerAndProduct | * ~ Result-GroupByCustomerAndProduct.csv}
 
-Video 6 Crosstab : Coming soon
+Video 6 Crosstab : https://youtube.com/shorts/me7ZfQSFn0Y?feature=share
+- CSV2LedgerRAM{Transaction.csv ~ Table}  
+- Crosstab{X(Customer, Currency) Y(Product,Unit Code) => Count() Sum(Quantity) Sum(Base Amount)}    
+- LedgerRAM2CSV{Table | * ~ Result-CrazyCrosstab.csv}
 
 Video 7 ReverseCrosstab : Coming soon
 
