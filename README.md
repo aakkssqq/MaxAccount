@@ -25,7 +25,7 @@ Video 3 VoucherEntry: https://youtu.be/wkDV8hWaIyI
 - CSV2LedgerRAM{Invoice.csv ~ trading}
 - VoucherEntry{Credit(Sales) Debit(Account Receivable) => Amount}
 - SelectColumn{Date, D/C, Account, Invoice No,Customer, Product, Amount}
--  OrderBy{Date(A) Invoice No(A) D/C(D)}
+- OrderBy{Date(A) Invoice No(A) D/C(D)}
 - LedgerRAM2CSV{trading | * ~ Result-VoucherEntry.csv}
 
 Video 4 Distinct: https://youtube.com/shorts/di4gc2Thi44?feature=share
@@ -59,18 +59,15 @@ Video 9 SelectColumn / RemoveColumn : https://youtube.com/shorts/vwX7arOvZd4?fea
 - CSV2LedgerRAM{Transaction.csv ~ Table}
 - SelectColumn{Customer ~ 1Column}
 - LedgerRAM2CSV{1Column | * ~ Result-Select1Column.csv}
-- EndProcess{}
 
 - CSV2LedgerRAM{Transaction.csv ~ Table}
 - RemoveColumn{Table | Date,Product, Quantity, Unit Code, currency, Unit Price, Amount ~ Table1}
 - LedgerRAM2CSV{Table1 | * ~ Result-Remove7Column.csv}
-- EndProcess{}
 
 Video 10 ComputeColumn (Combine Text): https://youtube.com/shorts/FwHucQpFVJs?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Table}
 - ComputeColumn{"Sales ", Product, " to ", Customer, " ",Quantity, " ", Unit Code => CombineText(Description)}
 - LedgerRAM2CSV{Table | * ~ Result-CombineText.csv}
-- EndProcess{}
 
 Video 11 JoinTable and ComputeColumn : https://youtube.com/shorts/c1nCK-jKP0I?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Transaction}
@@ -82,8 +79,6 @@ Video 11 JoinTable and ComputeColumn : https://youtube.com/shorts/c1nCK-jKP0I?fe
 - ComputeColumn{Amount| Amount, Discount => Multiply(Discount Amount.2) ~ DiscountAmount}
 - ComputeColumn{DiscountAmount| Amount, Discount Amount => Subtract(Net Amount.2) ~ NetAmount}
 - LedgerRAM2CSV{NetAmount | * ~ Result-Join2Column.csv}
-- EndProcess{}
-
 
 Video 12 Convert csv to json,xml,html and xml : https://youtube.com/shorts/OkYHXd-gSEI?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Table}
@@ -91,8 +86,6 @@ Video 12 Convert csv to json,xml,html and xml : https://youtube.com/shorts/OkYHX
 - LedgerRAM2JSON{Table ~ Result-Transaction.json}
 - LedgerRAM2HTML{Table ~ Result-Transaction.html}
 - LedgerRAM2XML{Table ~ Result-Transaction.xml}
-- EndProcess{}
-- 
 
 Video 13 and after are planning in progress.
 
