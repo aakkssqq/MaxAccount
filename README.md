@@ -55,7 +55,7 @@ Video 8 AndFilter: https://youtube.com/shorts/Lp2_aBH_mqU?feature=share
 - AndFilter{Table | Product(=Apple,=Orange) Amount(500..1000) ~ Table1}   
 - LedgerRAM2CSV{Table1 | * ~ Result-AndFilterByCustomerAndProductApple.csv}
 
-Video 9 SelectColumn / RemoveColumn 
+Video 9 SelectColumn / RemoveColumn : https://youtube.com/shorts/vwX7arOvZd4?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Table}
 - SelectColumn{Customer ~ 1Column}
 - LedgerRAM2CSV{1Column | * ~ Result-Select1Column.csv}
