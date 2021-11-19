@@ -1,0 +1,4 @@
+CSV2LedgerRAM{Transaction.csv ~ Table}  
+Crosstab{X(Product) Y(Customer) => Sum(Base Amount)}    
+LedgerRAM2CSV{Table | * ~ Result-SimpleCrosstab.csv}
+EndProcess{}

@@ -1,0 +1,32 @@
+Date,Customer,Product, Quantity ,Unit Code,Currency, Unit Price ,Original Amount,Exchange Rate,Base Amount
+2-Jan-22,Tiger Company,Apple,20,Box,USD,30,600,7.8,4680
+9-May-22,Tiger Company,Avocado,5,Box,USD,19.5,97.5,7.8,760.5
+12-Jul-22,Tiger Company,Mango,30,Box,USD,30,900,7.8,7020
+18-Sep-22,Tiger Company,Apple,10,Box,USD,30,300,7.8,2340
+12-Oct-22,Tiger Company,Avocado,9,Box,USD,19.5,175.5,7.8,1368.9
+12-Jan-22,Lion Limited,Orange,50,Box,USD,38,1900,7.8,14820
+20-Mar-22,Lion Limited,Pear,18,Box,USD,8,144,7.8,1123.2
+18-May-22,Lion Limited,Orange,30,Box,USD,38,1140,7.8,8892
+15-Aug-22,Lion Limited,Banana,15,Kg,USD,4,60,7.8,468
+19-Jan-22,Dog Inc.,Pear,10,Box,USD,8,80,7.8,624
+30-Apr-22,Dog Inc.,Banana,5,Kg,USD,4,20,7.8,156
+20-Jul-22,Dog Inc.,Apple,30,Box,USD,30,900,7.8,7020
+30-Sep-22,Dog Inc.,Pear,8,Box,USD,8,64,7.8,499.2
+20-Nov-22,Dog Inc.,Grape,10,Kg,USD,11,110,7.8,858
+6-Jan-22,Cat Company Limited,Avocado,6,Box,USD,19.5,117,7.8,912.6
+30-Jun-22,Cat Company Limited,Mango,5,Box,USD,30,150,7.8,1170
+15-Aug-22,Cat Company Limited,Avocado,10,Box,USD,19.5,195,7.8,1521
+19-Nov-22,Cat Company Limited,Mango,15,Box,USD,30,450,7.8,3510
+18-Feb-22,Pig Inc.,Orange,30,Box,USD,38,1140,7.8,8892
+15-Mar-22,Pig Inc.,Pear,10,Box,USD,8,80,7.8,624
+20-Oct-22,Pig Inc.,Grape,20,Kg,USD,11,220,7.8,1716
+15-Jan-22,Sheep Limited,Orange,10,Box,USD,38,380,7.8,2964
+18-Feb-22,Sheep Limited,Apple,20,Box,USD,30,600,7.8,4680
+19-Mar-22,Sheep Limited,Avocado,3,Box,USD,19.5,58.5,7.8,456.3
+25-Aug-22,Sheep Limited,Orange,20,Box,USD,38,760,7.8,5928
+16-Oct-22,Sheep Limited,Apple,50,Box,USD,30,1500,7.8,11700
+30-Jan-22,Rat Company,Avocado,10,Box,USD,19.5,195,7.8,1521
+26-Feb-22,Rat Company,Mango,20,Box,USD,30,600,7.8,4680
+15-Apr-22,Rat Company,Orange,15,Box,USD,38,570,7.8,4446
+16-May-22,Rat Company,Banana,25,Kg,USD,4,100,7.8,780
+15-Jul-22,Rat Company,Pear,30,Box,USD,8,240,7.8,1872
