@@ -66,11 +66,33 @@ Video 9 SelectColumn / RemoveColumn : https://youtube.com/shorts/vwX7arOvZd4?fea
 - LedgerRAM2CSV{Table1 | * ~ Result-Remove7Column.csv}
 - EndProcess{}
 
+Video 10 ComputeColumn (Combine Text): https://youtube.com/shorts/FwHucQpFVJs?feature=share
+- CSV2LedgerRAM{Transaction.csv ~ Table}
+- ComputeColumn{"Sales ", Product, " to ", Customer, " ",Quantity, " ", Unit Code => CombineText(Description)}
+- LedgerRAM2CSV{Table | * ~ Result-CombineText.csv}
+- EndProcess{}
 
-Video 9 JoinTable : Coming soon
+Video 11 JoinTable and ComputeColumn : Coming soon
+- CSV2LedgerRAM{Transaction.csv ~ Transaction}   
+- CSV2LedgerRAM{Unit Price.csv ~ UnitPrice}
+- CSV2LedgerRAM{Discount.csv ~ Discount}
+- JoinTable{Transaction(Product) @ UnitPrice(Product) ~ JoinedTable1} 
+- JoinTable{JoinedTable1(Customer) @ Discount(Customer) ~ JoinedTable2} 
+- ComputeColumn{JoinedTable2| Quantity, Unit Price => Multiply(Amount.2) ~ Amount}
+- ComputeColumn{Amount| Amount, Discount => Multiply(Discount Amount.2) ~ DiscountAmount} 
+- ComputeColumn{DiscountAmount| Amount, Discount Amount => Subtract(Net Amount.2) ~ NetAmount}
+- LedgerRAM2CSV{NetAmount | * ~ Result-Join2Column.csv}
+- EndProcess{}
 
-Video 10 ComputeColumn : Coming soon
 
-Video 11 and after are planning in progress.
+Video 11 Conversion : Coming soon
+- CSV2LedgerRAM{Transaction.csv ~ Table}
+- LedgerRAM2CSV{Table | * ~ Result-Transaction.csv}
+- LedgerRAM2JSON{Table ~ Result-Transaction.json}
+- LedgerRAM2HTML{Table ~ Result-Transaction.html}
+- LedgerRAM2XML{Table ~ Result-Transaction.xml}
+- EndProcess{}
+
+Video 12 and after are planning in progress.
 
 Relevent data and rule files will be uploaded to the folder "UseCase" of this repository.
