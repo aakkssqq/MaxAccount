@@ -1,0 +1,7 @@
+CSV2LedgerRAM{SimpleCrosstab.csv ~ Table}
+ReverseCrosstab{Table | * ~ Table2}
+AndFilter{Table2 | Base Amount(!=0)}   
+LedgerRAM2CSV{Table2 | * ~ Result-SimpleReverseCrosstab.csv}
+EndProcess{}
+
+
