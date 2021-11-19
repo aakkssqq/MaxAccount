@@ -57,6 +57,11 @@ Video 8 AndFilter: https://youtube.com/shorts/Lp2_aBH_mqU?feature=share
 
 Video 9 SelectColumn / RemoveColumn 
 - CSV2LedgerRAM{Transaction.csv ~ Table}
+- SelectColumn{Customer ~ 1Column}
+- LedgerRAM2CSV{1Column | * ~ Result-Select1Column.csv}
+- EndProcess{}
+
+- CSV2LedgerRAM{Transaction.csv ~ Table}
 - RemoveColumn{Table | Date,Product, Quantity, Unit Code, currency, Unit Price, Amount ~ Table1}
 - LedgerRAM2CSV{Table1 | * ~ Result-Remove7Column.csv}
 - EndProcess{}
