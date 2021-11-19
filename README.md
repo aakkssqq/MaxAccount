@@ -48,6 +48,9 @@ Video 6 Crosstab : https://youtube.com/shorts/me7ZfQSFn0Y?feature=share
 Video 7 ReverseCrosstab : Coming soon
 
 Video 8 AndFilter: https://youtube.com/shorts/Lp2_aBH_mqU?feature=share
+- CSV2LedgerRAM{Transaction.csv ~ Table}    
+- AndFilter{Table | Product(=Apple,=Orange) Amount(500..1000) ~ Table1}   
+- LedgerRAM2CSV{Table1 | * ~ Result-AndFilterByCustomerAndProductApple.csv}
 
 Video 9 JoinTable : Coming soon
 
