@@ -45,7 +45,10 @@ Video 6 Crosstab : https://youtube.com/shorts/me7ZfQSFn0Y?feature=share
 - Crosstab{X(Customer, Currency) Y(Product,Unit Code) => Count() Sum(Quantity) Sum(Base Amount)}    
 - LedgerRAM2CSV{Table | * ~ Result-CrazyCrosstab.csv}
 
-Video 7 ReverseCrosstab : Coming soon
+Video 7 ReverseCrosstab : https://youtube.com/shorts/bSyIG2VHoXY?feature=share
+- CSV2LedgerRAM{CrazyCrosstab.csv ~ crosstab}
+- ReverseCrosstab{crosstab | * ~ ReverseCrosstab}
+- LedgerRAM2CSV{ReverseCrosstab | * ~ Result-CrazyReverseCrosstab.csv}
 
 Video 8 AndFilter: https://youtube.com/shorts/Lp2_aBH_mqU?feature=share
 - CSV2LedgerRAM{Transaction.csv ~ Table}    
