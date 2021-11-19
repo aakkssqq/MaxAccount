@@ -1,0 +1,11 @@
+CSV2LedgerRAM{Transaction.csv ~ Transaction}   
+CSV2LedgerRAM{Unit Price.csv ~ UnitPrice}
+CSV2LedgerRAM{Discount.csv ~ Discount}
+JoinTable{Transaction(Product) @ UnitPrice(Product) ~ JoinedTable1} 
+JoinTable{JoinedTable1(Customer) @ Discount(Customer) ~ JoinedTable2} 
+ComputeColumn{JoinedTable2| Quantity, Unit Price => Multiply(Amount.2) ~ Amount}
+ComputeColumn{Amount| Amount, Discount => Multiply(Discount Amount.2) ~ DiscountAmount} 
+ComputeColumn{DiscountAmount| Amount, Discount Amount => Subtract(Net Amount.2) ~ NetAmount}
+LedgerRAM2CSV{NetAmount | * ~ Result-Join2Column.csv}
+EndProcess{}
+
