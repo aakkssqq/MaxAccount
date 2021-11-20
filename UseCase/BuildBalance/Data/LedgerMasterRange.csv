@@ -1,0 +1,49 @@
+Ledger,Account,Account Name,Year End:Account
+AAA,100000,Properties for Rental Business,100000
+AAA,109000,Fair Value Adjustment,109000
+AAA,110000,PPE - cost,110000
+AAA,115000,Accumulate depreciation,115000
+AAA,151000,Future Lease Receivable,151000
+AAA,152000,Unearn lease income,152000
+AAA,210000,Payment,210000
+AAA,220000,Deposits,220000
+AAA,230000,A/C Receivable,230000
+AAA,231000,Accrued rental ,231000
+AAA,232000,Rental receivable,232000
+AAA,250000,Bank Account Balance,250000
+AAA,310000,Tenants deposits ,310000
+AAA,320000,Accrued expenses,320000
+AAA,330000,Interest payable,330000
+AAA,340000,Tax Payable,340000
+AAA,350000,Bank loan due within one year,350000
+AAA,450000,Bank loan due after one year,450000
+AAA,510000,Share capital,510000
+AAA,520000,Retained earning - b/f,520000
+AAA,610000,Rental income,520000
+AAA,650000,Bank interest income,520000
+AAA,690000,Sundry income,520000
+AAA,710000,Building management fee,520000
+AAA,780000,Exchange differences,520000
+AAA,811000,Auditor remuneration,520000
+AAA,812000,Bank fee,520000
+AAA,813000,Bank loan interest ,520000
+AAA,814000,Gov fee,520000
+AAA,816000,Depreciation of PPE,520000
+AAA,817000,Energy charge,520000
+AAA,818000,Insurance,520000
+AAA,820000,Consuntancy Fee,520000
+AAA,822000,Printing & stationery,520000
+AAA,823000,Rates,520000
+AAA,824000,Maintenance Fee,520000
+AAA,825000,Staff cost,520000
+AAA,826000,Sundry expenses,520000
+AAA,827000,Internet Fee,520000
+AAA,828000,Travelling expenses,520000
+AAA,831000,Club House Net Expenses,520000
+AAA,832000,Coach Service,520000
+AAA,833000,Lifts & Escalators Maintenance,520000
+AAA,834000,Minor Asset Items,520000
+AAA,835000,Recreation/Promotion,520000
+AAA,836000,Security Service,520000
+AAA,837000,Uniform,520000
+AAA,890000,Taxation,520000

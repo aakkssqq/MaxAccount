@@ -1,0 +1,23 @@
+CSV2LedgerRAM{LedgerMasterRange.csv ~ LedgerMaster}
+CSV2LedgerRAM{VoucherList.csv ~ Voucher}
+Date2MonthlyPeriod{DateColumn(Date) StartMonth(4)}
+BuildMonthlyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalance}
+LedgerRAM2CSV{TrialBalance | * ~ Result-TrialBalanceByPeriod.csv}
+
+Date2WeeklyPeriod{Voucher | DateColumn(Date) CultureOption(zh-HK) StartWeek(12)}
+BuildWeeklyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByWeek}
+LedgerRAM2CSV{TrialBalanceByWeek | * ~ Result-TrialBalanceByWeek.csv}
+
+Date2DailyPeriod{Voucher | DateColumn(Date) CultureOption(zh-HK) StartDay(92)}
+BuildDailyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByDay}
+LedgerRAM2CSV{TrialBalanceByDay | * ~ Result-TrialBalanceByDay.csv}
+
+EndProcess{}
+
+
+
+
+
+
+
+
