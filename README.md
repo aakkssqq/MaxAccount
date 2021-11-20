@@ -144,7 +144,7 @@ Export Report
 - Crosstab{VoucherList | X(Voucher Type, Account, D/C) Y(AssetID) => Sum(Amount) ~ TrialBalanceByAssetID}
 - LedgerRAM2CSV{TrialBalanceByAssetID | * ~ Result-TrialBalanceByAssetID.csv}
 
-# Video 15 Build Daily, Weekly and Monthly Account Balance with year-end closing for retained account
+# Video 15 Build Account Balance with year-end closing for retained account
 
 Data Import
 - CSV2LedgerRAM{LedgerMasterRange.csv ~ LedgerMaster}
