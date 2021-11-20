@@ -1,0 +1,6 @@
+CSV2LedgerRAM{Trading.csv ~ trading}
+VoucherEntry{trading | Credit(Sales) Debit(Discount) Balance(Account Receivable) ExcludeBalanceGroupBy(Item No) => Amount}
+SelectColumn{Date, D/C, Account, Invoice No,Customer Code, Item No, Amount}
+OrderBy{Date(A) Invoice No(A) D/C(D)}
+LedgerRAM2CSV{trading | * ~ Result-VoucherEntryTrading2.csv}
+EndProcess{}
