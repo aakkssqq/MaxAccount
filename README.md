@@ -166,4 +166,4 @@ Build Daily Account Balance
 
 # Accounting for IT Profession
 
-Relevent data and rule files of the above videos are included in the folder "UseCase" of this repository. However, the videos do not have recorded voices. Next step the author considers to design a set of training videos titled "Accounting for IT Profession" to be published in Udemy or other online education platform.
+Relevent data and rule files of the above videos are included in the folder "UseCase" of this repository. However, the videos do not have recorded voices. Next step the author considers to design a set of training videos titled "Accounting for C# Profession" to be published in Udemy or other online education platform.
