@@ -144,6 +144,25 @@ Export Report
 - Crosstab{VoucherList | X(Voucher Type, Account, D/C) Y(AssetID) => Sum(Amount) ~ TrialBalanceByAssetID}
 - LedgerRAM2CSV{TrialBalanceByAssetID | * ~ Result-TrialBalanceByAssetID.csv}
 
-Video 13 and after are planning in progress.
+# Video 15 Build Daily, Weekly and Monthly Account Balance with year-end closing for retained account
 
-Relevent data and rule files will be uploaded to the folder "UseCase" of this repository.
+Data Import
+- CSV2LedgerRAM{LedgerMasterRange.csv ~ LedgerMaster}
+- CSV2LedgerRAM{VoucherList.csv ~ Voucher}
+
+Build Monthly Account Balance
+- Date2MonthlyPeriod{DateColumn(Date) StartMonth(4)}
+- BuildMonthlyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalance}
+- LedgerRAM2CSV{TrialBalance | * ~ Result-TrialBalanceByPeriod.csv}
+
+Build Weekly Account Balance
+- Date2WeeklyPeriod{Voucher | DateColumn(Date) CultureOption(zh-HK) StartWeek(12)}
+- BuildWeeklyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByWeek}
+- LedgerRAM2CSV{TrialBalanceByWeek | * ~ Result-TrialBalanceByWeek.csv}
+
+Build Daily Account Balance
+- Date2DailyPeriod{Voucher | DateColumn(Date) CultureOption(zh-HK) StartDay(92)}
+- BuildDailyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByDay}
+- LedgerRAM2CSV{TrialBalanceByDay | * ~ Result-TrialBalanceByDay.csv}
+
+# Relevent data and rule files are included in the folder "UseCase" of this repository.
