@@ -167,4 +167,4 @@ Build Daily Account Balance
 
 # Relevent data and rule files are included in the folder "UseCase" of this repository. 
 
-The above videos do not have recorded voice. Next step the author consider to design a set of training videos titled "Accounting for IT Profession" to be published in Udemy or other online education platform.
+The above videos do not have recorded voices. Next step the author considers to design a set of training videos titled "Accounting for IT Profession" to be published in Udemy or other online education platform.
