@@ -164,6 +164,6 @@ Build Daily Account Balance
 - BuildDailyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByDay}
 - LedgerRAM2CSV{TrialBalanceByDay | * ~ Result-TrialBalanceByDay.csv} 
 
-# Accounting for IT Profession
+# Accounting for C# Profession
 
 Relevent data and rule files of the above videos are included in the folder "UseCase" of this repository. However, the videos do not have recorded voices. Next step the author considers to design a set of training videos titled "Accounting for C# Profession" to be published in Udemy or other online education platform.
