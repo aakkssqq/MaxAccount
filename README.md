@@ -88,6 +88,62 @@ Video 12 Convert csv to json,xml,html and xml : https://youtube.com/shorts/OkYHX
 - LedgerRAM2HTML{Table ~ Result-Transaction.html}
 - LedgerRAM2XML{Table ~ Result-Transaction.xml}
 
+Video 13 Sales Discount Accounting
+- CSV2LedgerRAM{Trading.csv ~ trading}
+- VoucherEntry{trading | Credit(Sales) Debit(Discount) Balance(Account Receivable) ExcludeBalanceGroupBy(Item No) => Amount}
+- SelectColumn{Date, D/C, Account, Invoice No,Customer Code, Item No, Amount}
+- OrderBy{Date(A) Invoice No(A) D/C(D)}
+- LedgerRAM2CSV{trading | * ~ Result-VoucherEntryTrading2.csv}
+
+Video 14 Tenor Accounting
+- CSV2LedgerRAM{Cost.csv ~ Table}
+- Amortization{Method(MonthlyBasis,StraightLine,ProRateActualDay,Round2) ~ AmortizedTable}
+- Date2MonthlyPeriod{DateColumn(Date) StartMonth(1)}    
+- Number2Text{Tenor}
+- AmendColumnName{Text:Tenor = TextTenor}
+- LedgerRAM2CSV{AmortizedTable | * ~ Result-AmortizedTable.csv}
+
+# Acquisition
+- AndFilter{Tenor(=0) ~ Acquisition}
+- SelectColumn{Date, Period Change, AssetID, Tenor, TextTenor, Acquisition}
+- VoucherEntry{Debit(Acquisition) Credit(Payable) => Amount}
+- ComputeColumn{"Acquisition" => CombineText(Voucher Type) ~ Acquisition2}
+
+# Amortization
+- AndFilter{AmortizedTable | Amortization(>0) ~ Amortization}
+- SelectColumn{Date, Period Change, AssetID, Tenor, TextTenor, Amortization}
+- VoucherEntry{Debit(Amortization) Credit(AccAmortization) => Amount}
+- ComputeColumn{"Amortization" => CombineText(Voucher Type) ~ Amortization2}
+
+# Disposal
+- AndFilter{AmortizedTable | Disposal(>0) ~ Disposal}
+- SelectColumn{Date, Period Change, AssetID, Tenor, Disposal}
+- ComputeColumn{Tenor, "1" => Subtract(Last Tenor)}
+- SelectColumn{AssetID, Last Tenor}
+- AmendColumnName{Last Tenor = Tenor}
+- AndFilter.DistinctList{@ AmortizedTable | Disposal ~ DisposalOfCost2}
+
+- SelectColumn{Date, Period Change, AssetID, Tenor, TextTenor, Acquisition, AccAmortization}
+- LedgerRAM2CSV{DisposalOfCost2 | * ~ Result-DisposalOfCost2.csv}
+- VoucherEntry{Debit(AccAmortization) Credit(Acquisition)Balance(Receivable) => Amount}
+- ComputeColumn{"Disposal" => CombineText(Voucher Type) ~ Disposal2}
+
+# Combine Voucher
+- CombineTableByCommonColumn{Acquisition2, Amortization2, Disposal2 ~ Voucher}
+- OrderBy{AssetID(A) Period Change(A)}
+- AmendDateFormat{Date => OLEAutomationDate = dd-MMM-yyyy} 
+- ComputeColumn{"Tenor ",TextTenor, ": ", Voucher Type => CombineText(Particular)}
+- SelectColumn{Date, Period Change, Voucher Type, D/C, Account, Amount, AssetID, Particular ~ VoucherList}
+
+# Export Report
+- LedgerRAM2CSV{VoucherList | * ~ Result-VoucherList.csv}
+- Crosstab{X(Voucher Type, Account, D/C) Y(AssetID, Period Change) => Sum(Amount) ~ TrialBalanceByAssetIDByPeriod}
+- LedgerRAM2CSV{TrialBalanceByAssetIDByPeriod | * ~ Result-TrialBalanceByAssetIDByPeriod.csv}
+- Crosstab{VoucherList | X(Voucher Type, Account, D/C) Y(Period Change) => Sum(Amount) ~ TrialBalanceByPeriod}
+- LedgerRAM2CSV{TrialBalanceByPeriod | * ~ Result-TrialBalanceByPeriod.csv}
+- Crosstab{VoucherList | X(Voucher Type, Account, D/C) Y(AssetID) => Sum(Amount) ~ TrialBalanceByAssetID}
+- LedgerRAM2CSV{TrialBalanceByAssetID | * ~ Result-TrialBalanceByAssetID.csv}
+
 Video 13 and after are planning in progress.
 
 Relevent data and rule files will be uploaded to the folder "UseCase" of this repository.
