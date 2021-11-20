@@ -95,7 +95,7 @@ https://www.youtube.com/channel/UCouJHDI_7dkNbiEnuDpnFmg
 - OrderBy{Date(A) Invoice No(A) D/C(D)}
 - LedgerRAM2CSV{trading | * ~ Result-VoucherEntryTrading2.csv}
 
-# Video 14 Tenor Accounting https://youtu.be/GdZa4MxIcUw
+# Video 14 Tenor Accounting https://youtu.be/uTL4GOYTc50
 - CSV2LedgerRAM{Cost.csv ~ Table}
 - Amortization{Method(MonthlyBasis,StraightLine,ProRateActualDay,Round2) ~ AmortizedTable}
 - Date2MonthlyPeriod{DateColumn(Date) StartMonth(1)}    
