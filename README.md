@@ -122,7 +122,6 @@ Disposal
 - SelectColumn{AssetID, Last Tenor}
 - AmendColumnName{Last Tenor = Tenor}
 - AndFilter.DistinctList{@ AmortizedTable | Disposal ~ DisposalOfCost2}
-
 - SelectColumn{Date, Period Change, AssetID, Tenor, TextTenor, Acquisition, AccAmortization}
 - LedgerRAM2CSV{DisposalOfCost2 | * ~ Result-DisposalOfCost2.csv}
 - VoucherEntry{Debit(AccAmortization) Credit(Acquisition)Balance(Receivable) => Amount}
