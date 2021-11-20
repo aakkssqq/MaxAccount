@@ -165,4 +165,4 @@ Build Daily Account Balance
 - BuildDailyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByDay}
 - LedgerRAM2CSV{TrialBalanceByDay | * ~ Result-TrialBalanceByDay.csv}
 
-# Relevent data and rule files are included in the folder "UseCase" of this repository.
+# Relevent data and rule files are included in the folder "UseCase" of this repository. 
