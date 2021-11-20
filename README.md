@@ -163,6 +163,6 @@ Build Weekly Account Balance
 Build Daily Account Balance
 - Date2DailyPeriod{Voucher | DateColumn(Date) CultureOption(zh-HK) StartDay(92)}
 - BuildDailyBalanceCrosstabPeriod{Voucher| Ledger, Account, Amount @ LedgerMaster ~ TrialBalanceByDay}
-- LedgerRAM2CSV{TrialBalanceByDay | * ~ Result-TrialBalanceByDay.csv}
+- LedgerRAM2CSV{TrialBalanceByDay | * ~ Result-TrialBalanceByDay.csv} 
 
 # Relevent data and rule files are included in the folder "UseCase" of this repository. 
