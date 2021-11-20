@@ -88,14 +88,14 @@ https://www.youtube.com/channel/UCouJHDI_7dkNbiEnuDpnFmg
 - LedgerRAM2HTML{Table ~ Result-Transaction.html}
 - LedgerRAM2XML{Table ~ Result-Transaction.xml}
 
-# Video 13 Sales Discount Accounting
+# Video 13 Sales Discount Accounting: https://youtu.be/8IiSNF4wFJc
 - CSV2LedgerRAM{Trading.csv ~ trading}
 - VoucherEntry{trading | Credit(Sales) Debit(Discount) Balance(Account Receivable) ExcludeBalanceGroupBy(Item No) => Amount}
 - SelectColumn{Date, D/C, Account, Invoice No,Customer Code, Item No, Amount}
 - OrderBy{Date(A) Invoice No(A) D/C(D)}
 - LedgerRAM2CSV{trading | * ~ Result-VoucherEntryTrading2.csv}
 
-# Video 14 Tenor Accounting
+# Video 14 Tenor Accounting https://youtu.be/GdZa4MxIcUw
 - CSV2LedgerRAM{Cost.csv ~ Table}
 - Amortization{Method(MonthlyBasis,StraightLine,ProRateActualDay,Round2) ~ AmortizedTable}
 - Date2MonthlyPeriod{DateColumn(Date) StartMonth(1)}    
@@ -143,7 +143,7 @@ Export Report
 - Crosstab{VoucherList | X(Voucher Type, Account, D/C) Y(AssetID) => Sum(Amount) ~ TrialBalanceByAssetID}
 - LedgerRAM2CSV{TrialBalanceByAssetID | * ~ Result-TrialBalanceByAssetID.csv}
 
-# Video 15 Build Balance with year-end closing for retained account
+# Video 15 Build Balance with year-end closing for retained account https://youtu.be/GdZa4MxIcUw
 
 Data Import
 - CSV2LedgerRAM{LedgerMasterRange.csv ~ LedgerMaster}
